@@ -1,0 +1,6 @@
+Comparacion modelo de clases (uml) con MER
+Por parte del uml se crean las clases, atributos y metodos para el respectivo proyecto en cambio con MER se desarrolla con clases, atributos y cardinalidades sin tener en cuenta los metodos, en MER tenemos en cuenta los atributos candidatos.
+Tambien se diferencia en la manera de identificar cada una de las partes de los modelos graficamente (rectangulos, ovalos, etc..), en UML los atributos van detallados con su respectivo tipo de datos y se puede llegar a tener mas cosas en cuenta como los pies de clase.
+
+Critica:
+A la hora de llevar el modelo a codigo es mas sencillo de tomar el UML debido a su nivel de detalle, pero para llegar a entender mejor las bases de datos es mejor el modelo MER.

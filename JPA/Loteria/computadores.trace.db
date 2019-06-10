@@ -1,0 +1,64 @@
+2019-06-07 12:52:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "ADMIN" no encontrada
+Table "ADMIN" not found; SQL statement:
+SELECT CODIGOADMINISTRADOR FROM admin WHERE CODIGOADMINISTRADOR <> CODIGOADMINISTRADOR [42102-199]
+2019-06-07 12:52:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "TICKET" no encontrada
+Table "TICKET" not found; SQL statement:
+SELECT NUMEROBOLETA FROM ticket WHERE NUMEROBOLETA <> NUMEROBOLETA [42102-199]
+2019-06-07 12:52:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "USER" no encontrada
+Table "USER" not found; SQL statement:
+SELECT CODIGOCOMPRADOR FROM user WHERE CODIGOCOMPRADOR <> CODIGOCOMPRADOR [42102-199]
+2019-06-07 12:52:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "LOTERY" no encontrada
+Table "LOTERY" not found; SQL statement:
+SELECT CIUDAD FROM lotery WHERE CIUDAD <> CIUDAD [42102-199]
+2019-06-07 12:52:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "DRAW" no encontrada
+Table "DRAW" not found; SQL statement:
+SELECT NUMEROSORTEO FROM draw WHERE NUMEROSORTEO <> NUMEROSORTEO [42102-199]
+2019-06-07 12:52:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "SELLER" no encontrada
+Table "SELLER" not found; SQL statement:
+SELECT CODIGOVENDEDOR FROM seller WHERE CODIGOVENDEDOR <> CODIGOVENDEDOR [42102-199]
+2019-06-09 19:26:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "ADMINISTRADOR" no encontrada
+Table "ADMINISTRADOR" not found; SQL statement:
+SELECT CEDULA FROM Administrador WHERE CEDULA <> CEDULA [42102-199]
+2019-06-09 19:26:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "LOTERIA" no encontrada
+Table "LOTERIA" not found; SQL statement:
+SELECT CIUDAD FROM loteria WHERE CIUDAD <> CIUDAD [42102-199]
+2019-06-09 19:26:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "VENDEDOR" no encontrada
+Table "VENDEDOR" not found; SQL statement:
+SELECT CEDULA FROM Vendedor WHERE CEDULA <> CEDULA [42102-199]
+2019-06-09 20:57:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "BOLETA" no encontrada
+Table "BOLETA" not found; SQL statement:
+SELECT NUMEROBOLETA FROM Boleta WHERE NUMEROBOLETA <> NUMEROBOLETA [42102-199]
+2019-06-09 20:57:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "COMPRADOR" no encontrada
+Table "COMPRADOR" not found; SQL statement:
+SELECT CEDULA FROM Comprador WHERE CEDULA <> CEDULA [42102-199]
+2019-06-09 20:57:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "SORTEO" no encontrada
+Table "SORTEO" not found; SQL statement:
+SELECT NUMEROSORTEO FROM Sorteo WHERE NUMEROSORTEO <> NUMEROSORTEO [42102-199]
+2019-06-09 21:08:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Valor demasiado largo para la columna """DIRECCION"" VARCHAR(20)": "'M busquela Casa encuentrela Comuna El oso' (41)"
+Value too long for column """DIRECCION"" VARCHAR(20)": "'M busquela Casa encuentrela Comuna El oso' (41)"; SQL statement:
+INSERT INTO Vendedor (CEDULA, CELULAR, CONTRASEÑA, DIRECCION, NOMBRE) VALUES (?, ?, ?, ?, ?) [22001-199]
+2019-06-09 21:11:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Valor demasiado largo para la columna """DIRECCION"" VARCHAR(20)": "'M busquela Casa encuentrela Comuna El oso' (41)"
+Value too long for column """DIRECCION"" VARCHAR(20)": "'M busquela Casa encuentrela Comuna El oso' (41)"; SQL statement:
+INSERT INTO Vendedor (CEDULA, CELULAR, CONTRASEÑA, DIRECCION, NOMBRE) VALUES (?, ?, ?, ?, ?) [22001-199]
+2019-06-09 21:12:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Valor demasiado largo para la columna """DIRECCION"" VARCHAR(20)": "'M busquela Casa encuentrela' (27)"
+Value too long for column """DIRECCION"" VARCHAR(20)": "'M busquela Casa encuentrela' (27)"; SQL statement:
+INSERT INTO Vendedor (CEDULA, CELULAR, CONTRASEÑA, DIRECCION, NOMBRE) VALUES (?, ?, ?, ?, ?) [22001-199]
+2019-06-09 21:13:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Valor demasiado largo para la columna """DIRECCION"" VARCHAR(20)": "'MZ busquela CS encuentrela' (26)"
+Value too long for column """DIRECCION"" VARCHAR(20)": "'MZ busquela CS encuentrela' (26)"; SQL statement:
+UPDATE Vendedor SET DIRECCION = ? WHERE (CEDULA = ?) [22001-199]
